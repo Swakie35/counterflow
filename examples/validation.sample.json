@@ -1,0 +1,38 @@
+{
+  "dataset": "synthetic, seeded; not operational records",
+  "target": "next-day units, using observed prior-day history",
+  "folds": [
+    {
+      "fold": 1,
+      "train_through": "2025-06-27",
+      "test_from": "2025-06-28",
+      "test_through": "2025-07-11",
+      "samples": 56,
+      "model_mae": 7.028,
+      "baseline_mae": 10.607,
+      "model_rmse": 8.768
+    },
+    {
+      "fold": 2,
+      "train_through": "2025-07-11",
+      "test_from": "2025-07-12",
+      "test_through": "2025-07-25",
+      "samples": 56,
+      "model_mae": 7.811,
+      "baseline_mae": 10.018,
+      "model_rmse": 9.12
+    },
+    {
+      "fold": 3,
+      "train_through": "2025-07-25",
+      "test_from": "2025-07-26",
+      "test_through": "2025-08-08",
+      "samples": 56,
+      "model_mae": 6.572,
+      "baseline_mae": 8.411,
+      "model_rmse": 8.134
+    }
+  ],
+  "mean_model_mae": 7.137,
+  "mean_baseline_mae": 9.679
+}

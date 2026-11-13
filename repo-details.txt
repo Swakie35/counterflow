@@ -1,0 +1,3 @@
+GitHub name: counterflow
+Description: Demand forecasting with leakage-aware feature engineering and walk-forward model evaluation.
+Topics: python,machine-learning,time-series,forecasting
