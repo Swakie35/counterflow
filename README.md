@@ -1,5 +1,7 @@
 # Counterflow
 
+[![CI](https://github.com/Swakie35/counterflow/actions/workflows/ci.yml/badge.svg)](https://github.com/Swakie35/counterflow/actions/workflows/ci.yml)
+
 ### Can a model beat a sensible baseline without seeing the future?
 
 Counterflow is a demand-forecasting benchmark I built around that question. It generates realistic-looking but entirely **synthetic** multi-site daily sales, creates past-only lag and rolling features, and uses expanding-history backtests to compare a gradient-boosted regressor with a simple same-weekday baseline.
